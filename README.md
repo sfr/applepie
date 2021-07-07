@@ -4,6 +4,8 @@
 # applepie
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/sfr/applepie/workflows/R-CMD-check/badge.svg)](https://github.com/sfr/applepie/actions)
 <!-- badges: end -->
 
 The goal of applepie is to access R-universe API from R, for a tutorial.
@@ -14,7 +16,7 @@ You can install the released version of applepie with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("maelle/applepie")
+remotes::install_github("sfr/applepie")
 ```
 
 ## Example
