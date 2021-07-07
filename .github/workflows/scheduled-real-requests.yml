@@ -7,7 +7,7 @@ on:
   schedule:
     - cron:  '*/5 * * * *'
 
-name: R-CMD-check
+name: VCR off
 
 jobs:
   R-CMD-check:
