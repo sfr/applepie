@@ -1,3 +1,4 @@
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
+test_that("get_packages() works", {
+  pkgs <- get_packages("maelle")
+  expect_vector(pkgs, character())
 })
