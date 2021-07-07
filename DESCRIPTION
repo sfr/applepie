@@ -2,11 +2,10 @@ Package: applepie
 Title: Client to Access the 'R-Universe' 'API'
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Maëlle",
-           family = "Salmon",
+    person(given = "Juraj",
+           family = "Šofranko",
            role = c("cre", "aut"),
-           email = "msmaellesalmon@gmail.com",
-           comment = c(ORCID = "0000-0002-2815-0399"))
+           email = "juraj.sofranko@gmail.com")
 Description: Client to access the 'R-Universe' 'API', but also example
     package for a tutorial.
 License: MIT + file LICENSE
@@ -21,5 +20,6 @@ Imports:
     tibble,
     withr
 Suggests: 
+    vcr (>= 0.6.0),
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
