@@ -19,3 +19,11 @@ testthat::test_that("get_packages() retries", {
   })
   testthat::expect_vector(pkgs, character())
 })
+
+testthat::test_that("get_packages() works", {
+  skip_if_not_beyonce()
+  vcr::use_cassette("blabla", {
+    pkgs <- get_packages("maelle")
+  })
+  testthat::expect_vector(pkgs, character())
+})
